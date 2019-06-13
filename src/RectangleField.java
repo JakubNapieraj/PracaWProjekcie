@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class RectangleField implements Worker {
 
-    public void countField(){
+    @Override
+    public void doWork() {
 
         System.out.println("Podaj długość pierwszego boku: ");
         Scanner scanner = new Scanner(System.in);
@@ -11,11 +12,6 @@ public class RectangleField implements Worker {
         int b = scanner.nextInt();
 
         System.out.println("Pole prostokątu o bokach: " + a + "i" + b + "jest równe: " + a*b);
-
-    }
-
-    @Override
-    public void doWork() {
 
     }
 }
