@@ -10,6 +10,9 @@ public class Main {
             case 1:
                 workToDo = new TriangleField();
                 break;
+            case 2:
+                workToDo = new SquareField();
+                break;
 
             default:
                 throw new IllegalArgumentException("Operacja jest niedozwolona");
