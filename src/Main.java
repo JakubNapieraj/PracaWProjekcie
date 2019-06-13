@@ -10,6 +10,8 @@ public class Main {
             case 1:
                 workToDo = new TriangleField();
                 break;
+            case 2:
+                workToDo = new RectangleField();
 
             default:
                 throw new IllegalArgumentException("Operacja jest niedozwolona");
@@ -23,5 +25,8 @@ public class Main {
         System.out.println("1. Liczenie pola trójkąta");
 
         System.out.println("Twój wybór: ");
+        System.out.println("1 - Trójkąt, 2 - Prostokąt");
+
+
     }
 }
