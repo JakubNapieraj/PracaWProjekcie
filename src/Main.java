@@ -10,7 +10,7 @@ public class Main {
             case 1:
                 workToDo = new TriangleField();
                 break;
-            case 2:
+            case 3:
                 workToDo = new RectangleField();
 
             default:
