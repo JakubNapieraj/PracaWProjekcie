@@ -10,8 +10,18 @@ public class Main {
             case 1:
                 workToDo = new TriangleField();
                 break;
-            case 3:
+
+            case 2:
                 workToDo = new RectangleField();
+
+            case 3:
+                workToDo = new SquareField();
+                break;
+
+            case 4:
+                workToDo = new Diamond();
+                break;
+
 
             default:
                 throw new IllegalArgumentException("Operacja jest niedozwolona");
